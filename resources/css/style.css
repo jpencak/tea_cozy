@@ -6,20 +6,24 @@ body {font-family: helvetica;
       text-align: center;
 }
 
-.header {display: inline-flex;
+.header {display: flex;
          height: 50px;
-
+         position: fixed;
+         top: 0;
+         left: 0;
+         background-color: black;
+         border-bottom: 1px solid white;
+         padding-bottom: 10px;
 }
 
 
 
-.logo img {margin-right: 720px;
+.logo img {
            height: 50px;
 }
 
-.navigation {padding-top: 15px;
-             padding-left: 650px;
-             margin-left: 20px;
+.navigation {flex-grow: 1;
+             text-align: right;
 }
 
 #mission {height: 700px;
@@ -28,7 +32,7 @@ body {font-family: helvetica;
           background-position: center;
           background-size: 1500px;
           padding-top: 300px;
-          border-top: 1px solid white;
+          margin-top: 50px;
 
 }
 

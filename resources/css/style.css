@@ -7,23 +7,26 @@ body {font-family: helvetica;
 }
 
 .header {display: flex;
-         height: 50px;
+         height: 69px;
          position: fixed;
          top: 0;
          left: 0;
          background-color: black;
          border-bottom: 1px solid white;
          padding-bottom: 10px;
+         width: 100%;
+         align-items: center;
 }
 
 
 
-.logo img {
-           height: 50px;
+.logo img {height: 50px;
+           padding-left: 10px;
 }
 
 .navigation {flex-grow: 1;
              text-align: right;
+             padding-right: 10px;
 }
 
 #mission {height: 700px;
@@ -51,9 +54,8 @@ h4 {
 }
 
 
-
-
-a        {color: seashell;
+a {color: seashell;
+   padding-left: 20px;
 }
 
 .items img {height: 200px;

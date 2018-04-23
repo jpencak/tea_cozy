@@ -66,7 +66,8 @@ a {color: seashell;
 
 
 .flex-container {display: flex;
-                 flex-direction: column;            
+                flex-wrap: wrap;
+                justify-content: space-around;
                }
 
 .item span {display: flex;
@@ -75,9 +76,12 @@ a {color: seashell;
 
 }
 
+.item {display: flex;
+       flex-direction: column;}
+
 #locations {background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-background-repeat: no-repeat;
-background-position: center;
-background-size: 1500px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 1500px;
 
 }

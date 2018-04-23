@@ -58,16 +58,26 @@ a {color: seashell;
    padding-left: 20px;
 }
 
+
+
 .items img {height: 200px;
             width: 300px;
           }
 
 
 .flex-container {display: flex;
-                 justify-content: center;
-                 flex-wrap;
+                 flex-direction: column;            
                }
 
-.item span {display: block;
+.item span {display: flex;
+            flex-direction: column;
             padding: 5px;
+
+}
+
+#locations {background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: 1500px;
+
 }

@@ -44,6 +44,8 @@ body {font-family: helvetica;
     }
 
 h2 {padding-top: 10px;
+    margin: 0;
+
 }
 
 .section2 {padding-top: 70px;
@@ -77,21 +79,17 @@ a {color: seashell;
        flex-direction: column;
        margin: 0 10px;
        padding: 10px;
-
-
-      }
+}
 
 #locations {background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: 1500px;
-            padding-top: 70px;
+          
+            padding-top: 30px;
             height: 500px;
             margin-top: 70px;
-
 }
 
 #locations .flex-container {margin: auto;
+                            margin-top: 30px;
                             width: 1100px;}
 
 
@@ -103,7 +101,6 @@ a {color: seashell;
            flex-direction: column;
            justify-content: center;
            height: 250px;
-
 }
 
 h3 {display: block;

@@ -67,8 +67,10 @@ a {color: seashell;
 
 .flex-container {display: flex;
                 flex-wrap: wrap;
-                justify-content: space-around;
-               }
+                justify-content: space-between;
+                width: 960px;
+                margin: 0 auto;
+              }
 
 .item span {display: flex;
             flex-direction: column;
@@ -77,11 +79,13 @@ a {color: seashell;
 }
 
 .item {display: flex;
-       flex-direction: column;}
+       flex-direction: column;
+       margin: 0 auto;}
 
 #locations {background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
             background-repeat: no-repeat;
             background-position: center;
             background-size: 1500px;
+            margin-bottom: 50px;
 
 }

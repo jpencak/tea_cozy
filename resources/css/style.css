@@ -88,6 +88,7 @@ a {color: seashell;
             padding-top: 70px;
             height: 500px;
             margin-top: 70px;
+
 }
 
 #locations .flex-container {margin: auto;
@@ -101,7 +102,8 @@ a {color: seashell;
            flex-basis: 280px;
            flex-direction: column;
            justify-content: center;
-           height: 300px;
+           height: 250px;
+
 }
 
 h3 {display: block;
@@ -112,3 +114,8 @@ h3 {display: block;
 
 p {font-size: 22px;
 }
+
+.footer {height: 200px;
+}
+
+.copyright {text-align: left;}

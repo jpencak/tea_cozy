@@ -61,3 +61,13 @@ a {color: seashell;
 .items img {height: 200px;
             width: 300px;
           }
+
+
+.flex-container {display: flex;
+                 justify-content: center;
+                 flex-wrap;
+               }
+
+.item span {display: block;
+            padding: 5px;
+}

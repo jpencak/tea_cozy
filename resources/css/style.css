@@ -29,6 +29,9 @@ body {font-family: helvetica;
              padding-right: 10px;
 }
 
+.main {width: 1200px;
+       margin: auto;}
+
 #mission {height: 700px;
           background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
           background-repeat: no-repeat;
@@ -48,7 +51,6 @@ h2 {padding-top: 10px;
 }
 
 h4 {padding-bottom: 10px;
-
 }
 
 .section2 {padding-top: 70px;
@@ -84,7 +86,7 @@ a {color: seashell;
 }
 
 #locations {background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-            
+
             padding-top: 70px;
             height: 700px;
             margin-top: 70px;

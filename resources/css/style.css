@@ -39,22 +39,22 @@ body {font-family: helvetica;
           background-size: 1500px;
           padding-top: 300px;
           margin-top: 50px;
-
 }
 
 .section1 {background-color: black;
            margin-top: 160px;
-    }
+}
 
 h2 {padding-top: 10px;
-
     margin: 0;
 }
 
 h4 {padding-bottom: 10px;
 }
 
-.steeping {padding-bottom: 10px;}
+
+
+.steeping {margin: 0px;}
 
 .section2 {padding-top: 70px;
 }

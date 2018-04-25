@@ -24,7 +24,7 @@ body {font-family: helvetica;
 
 .navigation {flex-grow: 1;
              text-align: right;
-             padding-right: 10px;           
+             padding-right: 10px;
 }
 
 .main {width: 1200px;
@@ -65,7 +65,6 @@ h4 {padding-bottom: 10px;
 a {color: seashell;
    padding-left: 20px;
 }
-
 
 .items img {height: 200px;
             width: 300px;
